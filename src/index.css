@@ -23,6 +23,13 @@ a:hover {
 }
 
 body {
+  background-image: url('/path/to/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.7); /* 若需要半透明的覆盖层 */
+  color: #f4f4f9; /* 柔和的文本颜色 */
+  font-family: 'Serif', Arial, sans-serif; /* 柔和的字体 */
   margin: 0;
   display: flex;
   place-items: center;

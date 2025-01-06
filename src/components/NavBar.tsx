@@ -1,4 +1,4 @@
-import React from "react";
+
 import { AppBar, Toolbar, Typography, Button, Box, Container } from "@mui/material";
 import ContentCutRoundedIcon from "@mui/icons-material/ContentCutRounded"; // 圆角剪刀图标
 import { Link } from "react-scroll";

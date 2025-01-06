@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Box, Typography } from "@mui/material";
 import NavBar from "./NavBar";
 import HeroSection from "./HeroSection";

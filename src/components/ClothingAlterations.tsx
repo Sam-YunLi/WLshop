@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Box, Container, Grid, Typography } from "@mui/material";
 import { CLOTHING_ALTERATIONS } from "../constants/info";
 

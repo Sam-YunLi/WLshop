@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Box, Container, Typography } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -50,15 +50,19 @@ const ContactSection = () => {
               }}
             >
               <a
-                href={`tel:${contact}`}
-                style={{
-                  textDecoration: "none",
-                  color: "#fff", // 链接默认颜色
-                  transition: "color 0.3s ease",
-                }}
-                onMouseOver={(e) => (e.target.style.color = "#D4AF37")}
-                onMouseOut={(e) => (e.target.style.color = "#fff")}
-              >
+  href={`tel:${contact}`}
+  style={{
+    textDecoration: "none",
+    color: "#fff", // 链接默认颜色
+    transition: "color 0.3s ease",
+  }}
+  onMouseOver={(e) => {
+    (e.target as HTMLElement).style.color = "#D4AF37";
+  }}
+  onMouseOut={(e) => {
+    (e.target as HTMLElement).style.color = "#fff";
+  }}
+>
                 {contact}
               </a>
             </Typography>

@@ -19,7 +19,7 @@ export const CLOTHING_ALTERATIONS = {
       sleeveAdjustments: "from 40",
       shoulderLifts: "from 50",
     },
-    blousesShirts: {
+    blousesAndShirts: {
       shortenSleeves: 25,
       shortenSleevesCuff: 30,
       shortenBody: 25,
@@ -33,7 +33,7 @@ export const CLOTHING_ALTERATIONS = {
       shortenSleeve: 50,
       lengthenSleeve: 35,
     },
-    repairsMending: {
+    repairsAndMending: {
       replaceZippers: 25,
       invisibleZips: 30,
       zips50cm: 30,
@@ -44,10 +44,10 @@ export const CLOTHING_ALTERATIONS = {
       fullSkirtHem3Layers: "from 230",
     },
     generalServices: {
-      shortenLengthen: "from 15",
-      hemmingStitching: "from 20",
-      takeInLetOut: "from 20",
-      repairReplace: "from 20",
+      shortenOrLengthen: "from 15",
+      hemmingOrStitching: "from 20",
+      takeInOrLetOut: "from 20",
+      repairOrReplace: "from 20",
       addOnsExtras: "from 15",
       dressSuitAlterations: "Ask for quote",
       madeToMeasure: "Ask for quote",

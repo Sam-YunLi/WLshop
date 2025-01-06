@@ -71,7 +71,9 @@ const ClothingAlterations = () => {
                   >
                     {categoryName
                       .replace(/([A-Z])/g, " $1")
-                      .replace(/^\w/, (c) => c.toUpperCase())}
+                      .replace(/^\w/, (c) => c.toUpperCase())
+                      .replace("And","&")
+                      .replace("Or", "/")}
                   </Typography>
 
                  {/* 服务价格 */}
@@ -109,7 +111,9 @@ const ClothingAlterations = () => {
       >
         {serviceName
           .replace(/([A-Z])/g, " $1")
-          .replace(/^\w/, (c) => c.toUpperCase())}
+          .replace(/^\w/, (c) => c.toUpperCase())
+          .replace("And","&")
+          .replace("Or", "/")}
       </Box>
 
       {/* 分隔点 */}
